@@ -1,0 +1,104 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+/* 
+        "WEEK 3" Assignment 2
+        Date : 23/07/2023
+        Author : Abhay Kumar
+        Batch : FSJS 2.0 
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  background-color: #0d0d0d;
+  align-items: center;
+}
+
+.navbar img {
+  padding-right: 80px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 80px;
+  border-right: 1px solid #adacac;
+}
+
+/* Navbar Divider */
+
+.list {
+  list-style: none;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: -420px;
+}
+
+.list-item {
+  margin-right: 40px;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.hero-heading,
+.hero-description {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+}
+
+.hero-heading {
+  text-align: center;
+  width: 850px;
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+.hero-description {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+/* Button */
+
+/* Button Small */
+
+.button-small {
+  background-color: #ab0fbf;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 8px;
+  border: transparent;
+  width: 150px;
+  height: 40px;
+}
+
+/* Button Large */
+
+.button-large {
+  background-color: #ab0fbf;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 25px;
+  border: transparent;
+}
