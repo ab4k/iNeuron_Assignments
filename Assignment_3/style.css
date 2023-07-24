@@ -1,0 +1,191 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+/* 
+        Assignment 3 | Week 3
+        Author : Abhay Kumar
+        Batch : FSJS 2.0
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+.navbar-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-container img {
+  width: 100px;
+}
+
+.list {
+  margin-left: 70px;
+  list-style: none;
+  display: flex;
+  font-family: "Orbitron", sans-serif;
+}
+
+.list-item {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.list-item:hover {
+  font-weight: bold;
+  text-decoration: solid;
+  font-size: 19px;
+  border-bottom: 2px solid #000;
+}
+
+/* Search Button */
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  font-size: 20px;
+  color: gray;
+  width: 160px;
+  margin-left: 10px;
+  height: 40px;
+  border-radius: 12px;
+  border: 2px solid #000;
+  background: transparent;
+}
+
+/* Hero Section */
+
+.hero-container {
+  display: flex;
+}
+
+.square {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 250px;
+  z-index: -1;
+}
+/* Man */
+.man {
+  margin-left: 70px;
+  margin-top: 100px;
+  height: max-content;
+}
+
+.man img {
+  width: 400px;
+}
+
+/* Larger Star */
+.star {
+  position: absolute;
+  right: 130px;
+  top: 150px;
+}
+
+.star img {
+  width: 50px;
+}
+
+/*Smaller Star*/
+
+.star-1 {
+  position: absolute;
+  bottom: 25px;
+  left: 650px;
+}
+
+.star-1 img {
+  width: 40px;
+}
+
+/* Globe */
+
+.globe {
+  position: absolute;
+  top: 120px;
+  right: 550px;
+}
+
+.globe img {
+  width: 60px;
+}
+
+/* Hero Container Right */
+
+.hero-container-right {
+  height: max-content;
+  text-align: center;
+  width: 800px;
+  margin-top: 150px;
+  margin-left: 165px;
+  margin-right: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container-right h1 {
+  margin-top: 20px;
+  font-size: 48px;
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 40px;
+}
+
+.hero-container-right p {
+  font-family: "Poppins", sans-serif;
+  color: grey;
+}
+
+/* Email Button */
+
+.button-email {
+  margin-top: 70px;
+  font-family: "Orbitron", sans-serif;
+  width: 220px;
+  height: 35px;
+  border: 2px solid rgb(54, 54, 54);
+  background-color: transparent;
+  border-radius: 10px;
+  color: rgb(54, 54, 54);
+  font-size: 20px;
+}
+
+/* Join Button */
+
+.button-join {
+  margin-top: 70px;
+  margin-left: 15px;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+  width: 140px;
+  height: 35px;
+  font-size: 20px;
+  background-color: #000;
+  border-radius: 10px;
+  border: transparent;
+}
+
+/* Contact Heading*/
+
+.contact-heading {
+  color: grey;
+  font-family: "Poppins", sans-serif;
+  margin-top: 60px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* Contact Channels */
+
+.icons img {
+  width: 35px;
+  margin: 15px;
+}
