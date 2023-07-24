@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2b2822;
+  color: #fff;
+  font-family: "Zona Black", sans-serif;
+}
+
+/* NavBar */
+
+.navbar {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Logo */
+
+.logo img {
+  width: 120px;
+}
+
+/* Menu Options */
+
+.menu-options {
+  margin-left: 570px;
+}
+
+.menu-options ul {
+  display: flex;
+}
+
+.items {
+  list-style: none;
+  margin-right: 30px;
+  color: grey;
+}
+
+/* Navbar Button */
+
+.navbar-button {
+  width: 135px;
+  height: 40px;
+  border: 2px solid #a69438;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-button button {
+  background-color: transparent;
+  font-size: 20px;
+  color: #a69438;
+  border: transparent;
+}
+
+/* Heading & Description */
+
+.text-container {
+  margin: 80px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Heading and Description */
+
+.heading {
+  width: 600px;
+}
+
+.heading h1 {
+  font-size: 80px;
+}
+
+.description {
+  width: 490px;
+}
+
+.description p {
+  color: rgb(204, 204, 204);
+  font-size: 25px;
+}
+
+/* Banner */
+
+.banner {
+  margin: 40px 30px;
+}
+
+.banner img {
+  width: 100%;
+}
