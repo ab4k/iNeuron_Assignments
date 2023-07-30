@@ -25,4 +25,6 @@
   <p>This contains hero section and navigation bar of legal consultancy website.</p>
   https://justice-ab4k.netlify.app/
 </details> 
-
+<hr>
+<h2>VS Code Website Clone</h2>
+<h3>The VS Code website clone is here : https://vscode-ab4k.netlify.app/</h3>
