@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #0e0e10;
+  color: #f2f3f2;
+  font-family: neuzeit-grotesk, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  /* border: 1px solid red; */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid green; */
+  width: 500px;
+  font-weight: bold;
+}
+
+nav li {
+  margin-left: 25px;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+}
+
+.menu-options button {
+  background-color: #1e1e21;
+  border: transparent;
+  color: #f2f3f2;
+  border-radius: 5px;
+  margin-left: 40px;
+  width: 140px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero Section */
+.hero {
+  /* border: 1px solid blue; */
+  display: flex;
+}
+
+.left-image {
+  /* position: absolute; */
+  margin-top: -230px;
+  margin-left: 200px;
+}
+
+.right-text {
+  margin-left: 115px;
+  /* border: 1px solid cyan; */
+  justify-content: flex-end;
+}
+
+#on-ear {
+  font-size: 130px;
+  margin-left: 40px;
+  color: #1e1e21;
+}
+
+#beats-3 {
+  font-size: 70px;
+  /* margin-left: 110px; */
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.hero h3 {
+  margin-bottom: 25px;
+}
+
+.hero p {
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  color: rgb(187, 181, 181);
+  width: 415px;
+  /* border: 1px solid magenta; */
+}
+
+#shop {
+  margin-top: 30px;
+  width: 240px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1e1e21;
+  border: transparent;
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+
+#shop img {
+  margin-right: 10px;
+}
+
+#N339K {
+  font-weight: bold;
+  font-size: 22px;
+  color: #f2f3f2;
+}
+
+/* Brand Section */
+
+.brand-logos {
+  /* border: 1px solid greenyellow; */
+  padding: 60px 0px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.brand-logos img {
+  height: 30px;
+}
+
+.specs {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid cyan; */
+  margin-bottom: 50px;
+}
+
+.gray-headings {
+  font-size: 80px;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  text-align: center;
+  background: -webkit-linear-gradient(#949497, #1e1e21);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.specs-desc {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 160px;
+  /* border: 1px solid red; */
+  margin-right: 60px;
+}
+.box {
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.bt,
+.microphone {
+  margin-left: 30px;
+}
+
+.specs-head {
+  font-size: 19px;
+}
+
+.specs-body {
+  font-size: 13px;
+  font-weight: bold;
+  color: #949497;
+}
+
+.apple-siri {
+  line-height: 15px;
+}
+
+/* Case Section */
+
+#case {
+  margin-top: 150px;
+}
+
+.case-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.case-right {
+  width: 270px;
+  margin-left: 80px;
+  line-height: 35px;
+  font-size: 20px;
+  color: #949497;
+}
+
+.case-right button {
+  background-color: #1e1e21;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+  color: #f2f3f2;
+  margin-top: 35px;
+  font-size: 16px;
+}
+
+.case-right button img {
+  margin-right: 20px;
+}
+
+/* Buy Now */
+
+.buy-now {
+  margin: 110px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.buy-now-container {
+  background-color: #1e1e21;
+  background-color: #1e1e21;
+  width: 80%;
+  height: 350px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-now-left {
+  margin-right: 50px;
+}
+
+#immense {
+  font-size: 30px;
+  font-family: neuzeit-grotesk, "Helvetica Neue", Helvetica, sans-serif;
+  width: 250px;
+  line-height: 40px;
+}
+
+#buy-now {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #949497;
+}
+
+.buy-now-left button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #f2f3f2;
+  border: transparent;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+
+.buy-now-left button p {
+  margin-left: 20px;
+}
+
+/* Choose Your Style */
+
+.choose-style-headphones {
+  display: flex;
+  justify-content: center;
+}
+
+#choose {
+  margin-bottom: -20px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-bottom: 30px; */
+  /* margin-top: 50px; */
+}
+
+.price p {
+  color: #949497;
+}
+
+.headphone-container + p {
+  margin-top: 15px;
+}
+
+.shopping-bag {
+  margin-left: 60px;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headphones {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.black {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: #1e1e21;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.headphone-container {
+  /* border: 1px solid yellow; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+}
+
+.headphone-container img {
+  width: 100px;
+}
+
+.cat-price {
+  margin-top: 50px;
+}
+
+.blue,
+.twilight-gray {
+  margin-top: 30px;
+}
+
+/* Footer Menu */
+
+footer {
+  margin: 150px 0px 80px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  list-style-type: none;
+}
+.col {
+  color: #949497;
+  line-height: 35px;
+}
+
+.email-newsletter {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #1e1e21;
+  padding: 0px 15px;
+}
+
+#email-form {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.email-newsletter button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 130px;
+  height: 55px;
+  background-color: #000;
+  color: #f2f3f2;
+  border: transparent;
+  border-radius: 10px;
+}
+
+.col h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #f2f3f2;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social {
+  margin: 40px 20px 0px 0px;
+}
