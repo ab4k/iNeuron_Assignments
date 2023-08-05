@@ -28,3 +28,6 @@
 <hr>
 <h2>VS Code Website Clone</h2>
 <h3>The VS Code website clone is here : https://vscode-ab4k.netlify.app/</h3>
+<hr>
+<h2>Beats Landing Page</h2>
+<h3>The live link is : https://beats-ab4k.netlify.app/</h3>
