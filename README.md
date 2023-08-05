@@ -31,3 +31,6 @@
 <hr>
 <h2>Beats Landing Page</h2>
 <h3>The live link is : https://beats-ab4k.netlify.app/</h3>
+<hr>
+<h2>Credit Card Website Landing Page</h2>
+<h3>Live Link: https://creditcard-ab4k.netlify.app/</h3>
