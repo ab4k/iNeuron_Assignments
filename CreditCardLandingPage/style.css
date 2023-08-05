@@ -1,0 +1,372 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  overflow: hidden;
+  background: #000;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* border: 2px solid green; */
+}
+
+.logo-nav {
+  margin-left: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+  height: 70px;
+  /* border: 2px solid white; */
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+nav ul {
+  width: 500px;
+  /* border: 2px solid yellow; */
+  justify-content: space-evenly;
+}
+
+header,
+nav ul,
+.top-right {
+  display: flex;
+  flex-direction: row;
+}
+.top-right {
+  width: 180px;
+  /* border: 2px solid red; */
+  color: #fff;
+  justify-content: space-between;
+}
+
+ul li {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact-pink-icon {
+  position: absolute;
+  align-items: center;
+  margin-left: 70px;
+  z-index: -1;
+  width: 45px;
+}
+
+/* Hero Section */
+.hero {
+  padding: 50px;
+  background-image: url("./backCards.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-size: 600px;
+  overflow: hidden;
+}
+
+.hero-image {
+  float: right;
+  /* overflow: hidden; */
+  width: 500px;
+}
+
+.hero-content h1 {
+  line-height: 80px;
+  font-size: 70px;
+  color: #fff;
+}
+
+.hero-content h3 {
+  line-height: 35px;
+  color: #808080;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+.magenta-text {
+  color: magenta;
+  font-weight: bolder;
+}
+
+/* Call To Action */
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  margin-top: -100px;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.cta h2 {
+  color: #fff;
+  position: absolute;
+  margin-left: 50px;
+}
+
+#pink-icon {
+  width: 80px;
+}
+
+#arrow-image {
+  margin-left: 160px;
+}
+
+/* USP */
+
+.usp {
+  width: 650px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 200px 50px;
+}
+
+.usp p {
+  color: #fff;
+}
+
+.magenta-plus {
+  font-size: 45px;
+  font-weight: bold;
+}
+.active-users,
+.years-exp {
+  line-height: 25px;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.left-usp-text,
+.right-usp-text {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.numerals-usp {
+  font-size: 50px;
+}
+
+/* Sponsors */
+
+.sponsors {
+  height: 250px;
+  background-color: #242424;
+  /* padding: 10px; */
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+/* Services */
+
+.services {
+  display: flex;
+  flex-direction: row;
+  /* padding: 200px 200px 200px 50px; */
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-text {
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-heading h2 {
+  font-size: 60px;
+  width: 700px;
+  line-height: 100px;
+}
+
+.services-desc p {
+  font-size: 25px;
+  color: #808080;
+}
+
+/* Features  */
+
+.features {
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.box {
+  color: #fff;
+  margin: 30px;
+  width: 450px;
+  height: 450px;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box p {
+  font-size: 40px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.fee,
+.safety,
+.access {
+  background-color: #242424;
+}
+
+.box:hover {
+  position: relative;
+  bottom: 50px;
+  transition: ease-in-out;
+  transition-delay: 0.2s;
+  background-color: #808080;
+}
+
+/* Card Choices */
+
+.card-choices {
+  padding: 200px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card-choices h2 {
+  line-height: 120px;
+  font-size: 65px;
+}
+
+#card-choices-desc {
+  /* width: 550px; */
+  /* justify-content: center; */
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-choices img {
+  width: 700px;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+/* Satisfied Customers */
+
+.satisfied-customers {
+  padding: 100px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.satisfied-customers h2 {
+  font-size: 60px;
+}
+
+.satisfied-customers p {
+  margin-top: 50px;
+  color: #808080;
+}
+
+.reviews {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.review-box {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #242424;
+  border: 2px solid #fff;
+  width: 450px;
+  height: 250px;
+  padding: 30px;
+  text-align: left;
+}
+
+.review-box:hover {
+  background-color: #555050;
+}
+
+/* Take away Section */
+
+.take-away {
+  height: 550px;
+  background: url("./Rectangle\ 6774.png"), url("./Rectangle\ 6773.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#right-diamond {
+  float: right;
+  /* margin-top: 30px; */
+}
+
+.ta-text {
+  position: absolute;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ta-text h2 {
+  font-size: 65px;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+#bl-text {
+  color: #000;
+}
+
+.btn-pink {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: #fff;
+  font-weight: bold;
+  width: 250px;
+  justify-content: space-evenly;
+}
+/* Footer */
+
+footer {
+  background-color: #000;
+  padding: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
