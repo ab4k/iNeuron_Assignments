@@ -37,3 +37,7 @@
 <hr>
 <h2>Hosting Service Website Landing Page</h2>
 <h3>Live Link: https://hosting-ab4k.netlify.app/</h3>
+<hr>
+<h2>Gaming Website Landing Page</h2>
+<h3>Live Link: https://gaming-ab4k.netlify.app/</h3>
+
