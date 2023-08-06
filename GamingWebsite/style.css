@@ -1,0 +1,476 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+
+nav {
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-image: url("./futuristic-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.nav-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+nav,
+.menu-options ul,
+.btn-group {
+  display: flex;
+  align-items: flex-start;
+}
+
+.menu-options ul {
+  list-style: none;
+  justify-content: flex-start;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-left: 60px;
+  gap: 35px;
+}
+
+.left-group {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  border: transparent;
+}
+
+.sign-in-btn {
+  color: #fff;
+  background: transparent;
+}
+
+.sign-up-btn {
+  background: #f25d50;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+}
+
+.left-text {
+  width: 460px;
+  position: absolute;
+  top: 200px;
+  left: 70px;
+}
+
+.left-text h1 {
+  font-size: 45px;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 60px;
+}
+
+.left-text p {
+  color: #aaa8a8;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.get-started-btn,
+.learn-more-btn {
+  width: 140px;
+  height: 40px;
+  border: transparent;
+
+  color: #fff;
+}
+
+.get-started-btn {
+  background: #f25d50;
+}
+
+.learn-more-btn {
+  margin-left: 20px;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.right-icon {
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  color: #fff;
+}
+
+.right-icon p {
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 80px;
+  line-height: 25px;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.famous-games h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid red; */
+  font-size: 32px;
+  line-height: 45px;
+  width: 480px;
+}
+
+.head-container {
+  padding-top: 110px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image img {
+  width: 270px;
+  margin: 10px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.game-desc {
+  background: #000;
+  position: relative;
+  margin: -111px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.game-desc::before {
+  background: linear-gradient(#aaa8a8, #fff);
+  width: 270px;
+  height: 97px;
+  content: "";
+  position: absolute;
+  opacity: 0.4;
+  inset: 0;
+}
+
+.game-desc-left > p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  isolation: isolate;
+}
+
+.star-rating {
+  width: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.star-rating img {
+  height: 20px;
+}
+
+.download-btn {
+  width: 85px;
+  height: 35px;
+  background-color: #f25d50;
+  color: #fff;
+  border: transparent;
+  padding: 5px;
+}
+
+.game-tag {
+  font-size: 12px;
+  margin: 7px 0px;
+  color: #aaa8a8;
+}
+
+/* War Game */
+
+.war-game {
+  position: relative;
+  display: flex;
+  margin: 250px 80px 150px 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-image img {
+  width: 500px;
+}
+
+.war-game-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.war-game-desc {
+  width: 450px;
+  color: #aaa8a8;
+  font-size: 14px;
+  margin-left: 50px;
+  line-height: 20px;
+}
+
+.war-game-btn-group {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.war-game-learn-more-btn,
+.war-game-explore-btn {
+  width: 120px;
+  height: 40px;
+}
+
+.war-game-explore-btn {
+  background-color: #f25d50;
+  color: #fff;
+  border: transparent;
+}
+
+.war-game-learn-more-btn {
+  background-color: #fff;
+  border: 1px solid #f25d50;
+  color: #f25d50;
+}
+
+.game-recommendation {
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gr-left-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  width: 370px;
+}
+
+.arrow-in-the-right {
+  display: flex;
+  gap: 15px;
+}
+
+.left-arrow {
+  background-color: #e9c2bf;
+}
+
+.right-arrow {
+  background-color: #f25d50;
+}
+
+.left-arrow,
+.right-arrow {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-arrow img {
+  width: 25px;
+}
+
+.the-games {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 50px;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 80px;
+}
+
+.this-game-left img {
+  width: 250px;
+}
+
+.game-this-week {
+  display: flex;
+  align-items: center;
+}
+
+.the-game-tag {
+  color: #f25d50;
+  font-size: 13px;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.this-game-right {
+  margin-left: 30px;
+}
+.this-game-right h3 {
+  width: 200px;
+}
+
+.small-game-intro {
+  color: #aaa8a8;
+  font-size: 11px;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+.most-played-games {
+  background-color: #000;
+  height: 800px;
+}
+
+.mpg-heading {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.mpg-heading h2 {
+  font-size: 40px;
+  text-align: center;
+  width: 380px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 60px;
+  color: #fff;
+}
+
+.image-text-container {
+  display: flex;
+  justify-content: center;
+  background-image: url("./GAMES\ OF\ THE\ WORLD.svg");
+  background-repeat: no-repeat;
+  background-position: 460px 150px;
+}
+
+.image-one img {
+  width: 350px;
+}
+
+.text-container {
+  width: 540px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.text-container p {
+  color: #aaa8a8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.last-two-images {
+  position: absolute;
+  display: flex;
+  align-items: end;
+  gap: 30px;
+  margin-left: 350px;
+  margin-top: 200px;
+}
+
+.image-two img {
+  width: 250px;
+}
+
+.image-third img {
+  width: 200px;
+}
+
+.gamer-section {
+  padding-top: 30px;
+  background-image: url("./Rectangle\ 606.png");
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.gamer-section h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+.gamer-text-wrapper {
+  margin-top: 70px;
+}
+
+.gamer-small-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa8a8;
+}
+
+.cta-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #f25d50;
+  color: #fff;
+  border: transparent;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+footer {
+  padding: 70px 30px;
+  margin-top: -75px;
+  background-color: #010610;
+  color: #aaa8a8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container ul {
+  list-style: none;
+  line-height: 40px;
+}
+
+.foot-head {
+  color: #fff;
+  font-size: 22px;
+}
+
+#play-games {
+  font-size: 15px;
+  width: 200px;
+  line-height: 25px;
+  margin: 20px 0px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.fb,
+.ig,
+.tw {
+  margin-right: 15px;
+}
