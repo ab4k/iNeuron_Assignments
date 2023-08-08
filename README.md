@@ -43,4 +43,7 @@
 <hr>
 <h2>Real Estate Website Landing Page</h2>
 <h3>Live Link: https://realestate-ab4k.netlify.app/</h3>
+<hr>
+<h2>Data Analytics Service Provider Website Landing Page</h2>
+<h3>Live Link: https://data-analytics-ab4k.netlify.app/</h3>
 
