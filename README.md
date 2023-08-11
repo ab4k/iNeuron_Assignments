@@ -46,4 +46,7 @@
 <hr>
 <h2>Data Analytics Service Provider Website Landing Page</h2>
 <h3>Live Link: https://data-analytics-ab4k.netlify.app/</h3>
+<hr>
+<h2>  🟧 VS Code Website Clone | Tailwind CSS</h2>
+<h3>Live Link: https://codevs-ab4k.netlify.app/</h3>
 
