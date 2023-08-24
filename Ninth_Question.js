@@ -9,5 +9,5 @@ console.log(typeof true === "boolean");
 
 // Example of falsy values
 console.log(typeof Array == "object");
-console.log(typeof Array == "object");
-console.log(typeof Array == "object");
+console.log(typeof Boolean == "object");
+console.log(typeof undefined == "object");
