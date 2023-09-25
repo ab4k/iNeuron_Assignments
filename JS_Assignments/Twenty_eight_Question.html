@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pattern Printing</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-color: #0c0c0c;
+        color: aqua;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .box {
+        background-color: #1e2019;
+        padding: 40px;
+        width: 600px;
+        padding-top: 40px;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="box">
+      <div class="box" id="box-container"></div>
+    </div>
+    <script>
+      // 28. Write a program to print the given patterns using the loops-
+      // 	a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
+      // 	   *
+      // 	   **
+      // 	   ***
+
+      // 	b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+      // 	   ***
+      // 	   ***
+      // 	   ***
+
+      // 	c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+      // 	     *
+      // 	    ***
+      //       *****
+
+      const box = document.getElementById("box-container");
+
+      //   a).
+      const n = prompt("Enter the value of n: ");
+      for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= i; j++) {
+          box.innerHTML += "*";
+        }
+        box.innerHTML += "<br>";
+      }
+      box.innerHTML += "<br>";
+      box.innerHTML += "<br>";
+
+      //   b).
+      const p = prompt("Enter the value of p: ");
+      for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= n; j++) {
+          box.innerHTML += "*";
+        }
+        box.innerHTML += "<br>";
+      }
+      box.innerHTML += "<br>";
+      box.innerHTML += "<br>";
+
+      //   c).
+      const q = prompt("Enter the value of q: ");
+      for (let i = 0; i < q; i++) {
+        // Space
+        for (let j = 0; j < q - i - 1; j++) {
+          box.innerHTML += "&nbsp;&nbsp;";
+        }
+        // Star
+        for (let j = 0; j < 2 * i + 1; j++) {
+          box.innerHTML += "*";
+        }
+        // Space
+        for (let j = 0; j < q - i - 1; j++) {
+          box.innerHTML += "&nbsp;&nbsp;";
+        }
+        box.innerHTML += "<br>";
+      }
+    </script>
+  </body>
+</html>
